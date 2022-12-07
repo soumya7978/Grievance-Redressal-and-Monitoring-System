@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HP-Login</title>
+  </head>
+  <body>
+    <div class="before-nav">
+      <img
+        id="university-logo-top"
+        src="images/imgbin_utkal-university.png"
+        alt=""
+      />
+      <div class="unv-name">
+        <h2>fakir mohan chhatrabas</h2>
+        <h3>gent's hostel - 03</h3>
+        <p>
+          utkal university, vani vihar, <br />
+          bhubaneswar, pin-751004
+        </p>
+      </div>
+    </div>
+    <nav id="nav-bar">
+      <ul id="nav-menu">
+        <li><a href="index.html">home</a></li>
+        <li><a href="index.html#about">about</a></li>
+        <li><a href="index.html#contact">contact</a></li>
+        <li><a href="IssueRaise.html">raise issue</a></li>
+        <li><a href="index.html">logout </a></li>
+      </ul>
+    </nav>
+    <div class="mother-container">
+      <div class="clearfix"></div>
+      <!-- if issue table has data then render this table to page -->
+      <table>
+        <tr>
+          <th>ID</th>
+          <th>DEPT</th>
+          <th>ROOM NO.</th>
+          <th>STATUS</th>
+          <th>DETAILS</th>
+          <th>CONTACT</th>
+          <th>CHANGE STATUS</th>
+        </tr>
+        <tr>
+          <td>22.07.2022.18.44</td>
+          <td>ADMIN</td>
+          <td>123</td>
+          <td>PENDING</td>
+          <td>this is a small problem,please solve it quickly.</td>
+          <td>7978185389</td>
+          <td title="check the checkbox to mark as solved">
+            <form action="#" method="post">
+              <input type="text" value="123" hidden /><input
+                type="checkbox"
+                onchange="this.form.submit()"
+              />
+            </form>
+          </td>
+        </tr>
+
+        <tr>
+        <td>18.03.2021.05.23</td>
+          <td>MASON</td>
+          <td>34</td>
+          <td>PENDING</td>
+          <td>please solve it quickly.</td>
+          <td>7978187789</td>
+          <td title="check the checkbox to mark as solved">
+            <form action="changestatus" method="post">
+              <input type="text" value="123" hidden /><input
+                type="checkbox"
+                onchange="this.form.submit()"
+              />
+            </form>
+          </td>
+        </tr>
+      </table>
+
+      <!-- if no data in Issue table then -->
+
+      <div id="no-data" class="no-Input" hidden>
+        <pre> You have not raised any issues till now.
+            <a href="IssueRaise.html">click here</a> to raise an issue
+            </pre>
+      </div>
+    </div>
+
+    <footer>
+      <ul class="quicklinks">
+        <li><a href="index.html">home</a></li>
+        <li><a href="index.html#about">about</a></li>
+        <li><a href="index.html#contact">contact</a></li>
+      </ul>
+      <p>Samir 2022 © all rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,472 @@
+
+
+/* common Section */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    --color1 : #EEEEEE;
+    --color2 : #32E0C4;
+    --color2-low : #32E0C455;
+    --color3 : #0D7377;
+    --color3-low : #0D737755;
+    --color4 : #212121;
+    --color4-low : #21212199;
+
+}
+.before-nav{
+    height :100px;
+    background-color: var(--color2-low);
+    display: flex;
+}
+.unv-name{
+    height : 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.unv-name p{
+    line-height:1.4rem;
+}
+#university-logo-top{
+    height: 100%;
+    padding: 10px 30px 10px 10px;
+}
+#nav-bar{
+    background-color:var(--color3);
+    height: 40px;
+    display: flex;
+    position:sticky;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    z-index: 100;
+}
+#nav-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+#nav-menu li{
+    padding: 15px;
+    color:var(--color1);
+    text-transform: uppercase;
+    font-family: 'Lato',sans-serif;
+    height : 100%;
+}
+#nav-menu li a{
+    text-decoration: none;
+    color:var(--color1);
+    text-transform: uppercase;
+    font-family: 'Lato',sans-serif;
+}
+#nav-menu li:hover{
+    
+    transition: all 0.6s;
+    background-color:var(--color3);
+    box-shadow: inset 0px -3px 0px var(--color1);
+}
+#login-dropdown span{
+    margin-right:5px;
+}
+#login-dropdown{
+    position:relative;
+    display: inline-block;
+}
+.login-option{
+    background-color:var(--color3);
+    list-style: none;
+    display:none;
+    position:absolute;
+    bottom: -400%;
+    left: 0;
+    min-width: max-content;
+    z-index: 1;
+}
+#login-dropdown:hover .login-option{
+     display:block;
+}
+
+.mySlides {display: none}
+.slideshow-img{
+    vertical-align: middle;
+    height: 500px;
+    object-fit: cover;
+}
+/* Slideshow container */
+.slideshow-container {
+    width :100%;
+    height :500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: var(--color3);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: var(--color2);
+}
+
+/* Caption text */
+.text {
+  color: var(--color4);
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: var(--color4);
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+/* end of slideshow */
+
+
+
+
+
+.count-cards{
+  margin:30px 0;
+  height:fit-content;
+  display: flex; 
+  justify-content: space-around;
+}
+.count-card{
+  font-family:Arial, Helvetica, sans-serif ;
+  display: flex;
+  height:fit-content;
+  flex-direction: column;
+  color: var(--color4);
+  align-items: center;
+  font-size:1.5rem;
+  font-weight:600;
+  text-align: center;
+}
+.count-card span{
+  font-size: 2.5rem;
+  color: var(--color3);
+  display: block;
+  text-align: center;
+}
+.mother-container{
+  width: 85vw;
+  margin: auto;
+}
+.mother-container h2{
+  width: 100%;
+  color : var(--color3);
+  margin:50px 0px 15px 0px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mother-container p{
+  font-size:1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  color: var(--color4);
+}
+/* contact section */
+.contact-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  margin-bottom:50px;
+}
+  .contact-card{
+    margin:10px;
+    box-sizing: content-box;
+    background-color:var(--color2-low);
+    display:flex;
+    min-height:100px;
+    width: fit-content;
+    flex-direction:row;
+    border-radius:10px 0;
+    border: 1px solid var(--color3);
+  }
+.contact-card .left,
+.contact-card .right{
+   margin: 0;
+   display:flex;
+   height:100%;
+   flex-direction:column;
+   justify-content: center;
+   align-items: left;
+   padding: 10px;
+  }
+  .contact-card .left{
+    margin-right:30px;
+  }
+  .contact-card .right{
+    border-radius: 0 0 10px 0 ;
+    background: var(--color3-low);
+    transition: all 0.3s linear;
+  }
+  .contact-card .right i{
+    margin-right: 8px;
+  }
+  .contact-card:hover .right{
+     background: var(--color3);
+     transition: all 0.3s linear;
+  }
+ .contact-name{
+    color: var(--color3);
+    font-size:20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+
+  }
+  .contact-name i{
+    margin-right:10px ;
+  }
+  .contact-designation{
+    color:var(--color4-low);
+    text-transform: uppercase;
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-left: 28px;
+  }
+  .contact-card .right{
+    color:var(--color4-low);
+  }
+
+  footer{
+    background-color:var(--color3);
+    padding : 20px 0 10px 0 ;
+    display: flex;
+    color: var(--color4-low);
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .quicklinks{
+      list-style: none;
+      display: flex;
+      margin: 10px 0 15px 0;
+  }
+  footer .quicklinks li{
+    margin: 0 10px 0 10px;
+  }
+  footer .quicklinks li a{
+    text-transform: uppercase;
+    color:var(--color1);
+    text-decoration: none;
+    font-size:.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  footer .quicklinks li a:hover{
+    text-decoration: underline;
+  }
+
+
+
+
+
+
+
+
+
+
+/* login page */
+
+.form-body{
+    background-color: var(--color3-low);
+    height:calc(100vh - 140px);
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-control{
+    background-color:var(--color1);
+    border:2px solid var(--color3);
+    box-shadow: 2px 2px 3px var(--color3);
+    margin-top:15vh;
+    display:flex;
+    width: fit-content;
+    flex-direction: column;
+    border-radius:10px;
+    padding:20px 30px;
+}
+.form-control input, .form-control select{
+    margin:10px;
+    padding:1px 4px;
+    border:none;
+    background-color: var(--color1);
+    border-radius:3px;
+    border-bottom: 2px solid var(--color3);
+    font-size:1.2rem;
+    outline: none;
+}
+.form-control.issue-form{
+  margin-top:20px;
+}
+.form-control textarea{
+   margin:10px;
+    padding:1px 4px;
+    border:none;
+    background-color: var(--color1);
+    border-radius:3px;
+    border-bottom: 2px solid var(--color3);
+    font-size:1.2rem;
+    outline: none;
+    text-align:left;
+    resize: none;
+    height:fit-content;
+}
+.form-control input:focus{
+  background-color:#ebf8f2;
+}
+.form-control input::placeholder{
+  color:var(--color4-low);
+}
+.form-btn-group{
+  margin-top:20px;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+}
+.form-control input[type="submit"],
+.form-control input[type="reset"],
+button[type="submit"]{
+  border :   1px solid var(--color3);
+  padding:5px 10px;
+  border-radius: 15px;
+  box-shadow: 3px 2px 4px rgb(1, 21, 1), inset 3px  2px 4px rgb(55, 54, 54);
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:1.1rem;
+}
+.form-control input[type="submit"]{
+  background-color:var(--color3);
+  color:var(--color1);
+}
+.form-control input[type="submit"]:hover{
+  background-color:var(--color2);
+}
+.form-title{
+  font-family: Arial, Helvetica, sans-serif;
+  margin : 0px auto 15px;
+  text-transform: uppercase;
+  color:var(--color3);
+}
+
+.form-control details{
+  width:250px;
+  font-weight: 600;
+  margin:10px 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:1.5rem;
+}
+
+.form-control details a{
+ text-decoration: none;
+ color:#212121;
+ text-align: left;
+ font-size:1.3rem;
+ transition:all 0.5s;
+}
+.form-control details a:hover{
+  cursor: pointer;
+  font-size:1.5rem;
+  margin-left: 5px;
+  color:black;
+}
+
+table{
+  margin:auto;
+  
+}
+tr {
+  height: 2rem;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+td{
+  text-align: left;
+  padding: 15px;
+  font-size:1.05rem;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: center;
+}
+th{
+  background-color: var(--color4);
+  color: var(--color1);
+  text-align: center;
+  padding: 15px;
+  vertical-align: center;
+  font-size:1.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+

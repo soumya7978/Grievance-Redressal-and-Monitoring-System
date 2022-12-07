@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HP-Login</title>
+  </head>
+  <body>
+    <div class="before-nav">
+      <img
+        id="university-logo-top"
+        src="images/imgbin_utkal-university.png"
+        alt=""
+      />
+      <div class="unv-name">
+        <h2>Fakir Mohan Chhatrabas</h2>
+        <h3>Gent's Hostel - 03</h3>
+        <p>
+          Utkal University, Vani vihar, <br />
+          Bhubaneswar, Pin-751004
+        </p>
+      </div>
+    </div>
+    <nav id="nav-bar">
+      <ul id="nav-menu">
+        <li><a href="index.html">home</a></li>
+        <li><a href="index.html#about">about</a></li>
+        <li><a href="index.html#contact">contact</a></li>
+        <li><a href="issueHistory.html">Issues</a></li>
+        <li><a href="index.html">logout </a></li>
+      </ul>
+    </nav>
+    <div class="mother-container">
+      <div class="clearfix"></div>
+      <!-- if issue table has data then render this table to page -->
+
+      <table>
+        <tr>
+          <th>ID</th>
+          <th>DEPT</th>
+          <th>ROOM NO.</th>
+          <th>STATUS</th>
+          <th>DETAILS</th>
+          <th>CONTACT</th>
+        </tr>
+        <tr>
+          <td>12.07.2022.18.14</td>
+          <td>ELECTRICAL</td>
+          <td>179</td>
+          <td>PENDING</td>
+          <td>this is a small problem,please solve it quickly.</td>
+          <td>7978451236</td>
+        </tr>
+        <tr>
+          <td>22.07.2022.22.44</td>
+          <td>CARPENTER</td>
+          <td>156</td>
+          <td>SOLVED</td>
+          <td>this is a major issue,please solve it quickly.</td>
+          <td>7451245636</td>
+        </tr>
+        <tr>
+          <td>22.07.2022.22.44</td>
+          <td>SECURITY</td>
+          <td>156</td>
+          <td>SOLVED</td>
+          <td>my cycle is misplaced every day, kindly look into this matter and take appropriate actions accordingly.</td>
+          <td>8745698512</td>
+        </tr>
+        <tr>
+          <td>09.06.2022.05.07</td>
+          <td>PLUMBER</td>
+          <td>205</td>
+          <td>SOLVED</td>
+          <td>no water since a week, solve it asap.</td>
+          <td>9854651256</td>
+        </tr>
+        <tr>
+          <td>22.07.2022.22.44</td>
+          <td>MASON</td>
+          <td>156</td>
+          <td>SOLVED</td>
+          <td>this is a major issue,please solve it quickly.</td>
+          <td>7945451265</td>
+        </tr>
+      </table>
+
+      <!-- if no data in Issue table then -->
+
+      <div id="no-data" class="no-Input" hidden>
+        <pre>
+ CURRENTLY YOU HAVE NO ISSUES TO FIX.
+            </pre
+        >
+      </div>
+    </div>
+
+    <footer>
+      <ul class="quicklinks">
+        <li><a href="index.html">home</a></li>
+        <li><a href="index.html#about">about</a></li>
+        <li><a href="index.html#contact">contact</a></li>
+      </ul>
+      <p>Samir 2022 © all rights reserved.</p>
+    </footer>
+  </body>
+</html>

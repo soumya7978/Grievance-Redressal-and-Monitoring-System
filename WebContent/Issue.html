@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HP-Login</title>
+  </head>
+  <body>
+    <div class="before-nav">
+      <img
+        id="university-logo-top"
+        src="images/imgbin_utkal-university.png"
+        alt=""
+      />
+      <div class="unv-name">
+        <h2>Fakir Mohan Chhatrabas</h2>
+        <h3>Gent's Hostel - 03</h3>
+        <p>
+          Utkal University, Vani Vihar, <br />
+          Bhubaneswar, Pin-751004
+        </p>
+      </div>
+    </div>
+    <nav id="nav-bar">
+      <ul id="nav-menu">
+        <li><a href="index.html">home</a></li>
+        <li><a href="index.html#about">about</a></li>
+        <li><a href="index.html#contact">contact</a></li>
+        <li id="login-dropdown">
+          <span>Login</span> <i class="fa-solid fa-angle-down"></i>
+          <ul class="login-option">
+            <li><a href="Admin_login.html">Admin</a></li>
+            <li><a href="Student_login.html">Student</a></li>
+            <li><a href="Sup_login.html">Superintedent</a></li>
+            <li><a href="Staff_login.html">staff</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="form-body">
+      <form class="form-control" action="issuehistory2" method="get">
+          <h3 class="form-title">ROOM  NUMBER</h3>
+          <input
+            type="text"
+            required
+            name="roll"
+            placeholder="ROLL NO"
+            id="id_input"
+          />
+          
+          <input
+            type="text"
+            required
+            name="room"
+            placeholder="ROOM"
+            id="id_input"
+          />
+
+         <div class="form-btn-group">
+             <input type="submit">
+             <input type="reset">
+         </div>
+     
+        </form>
+    </div>
+    <footer>
+      <ul class = quicklinks>
+        <li><a href="index.html">home</a></li>
+        <li><a href="index.html#about">about</a></li>
+        <li><a href="index.html#contact">contact</a></li>
+      </ul>
+      <p>Samir 2022 © all rights reserved.</p>
+    </footer>
+  </body>
+</html>

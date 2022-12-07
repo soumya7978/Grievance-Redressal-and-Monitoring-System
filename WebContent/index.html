@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/8a64bf0eb2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+    <title>HP</title>
+  </head>
+  <body>
+    <div class="before-nav">
+      <img
+        id="university-logo-top"
+        src="images/imgbin_utkal-university.png"
+        alt=""
+      />
+      <div class="unv-name">
+        <h2>fakir mohan chhatrabas</h2>
+        <h3>gent's hostel - 03</h3>
+        <p>
+          utkal university, vani vihar, <br />
+          bhubaneswar, pin-751004
+        </p>
+      </div>
+    </div>
+    <nav id="nav-bar">
+      <ul id="nav-menu">
+        <li><a href="index.html">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="Stats">STATISTICS</a></li>
+        <li id="login-dropdown">
+          <span>Login</span> <i class="fa-solid fa-angle-down"></i>
+          <ul class="login-option">
+            <li><a href="Admin_login.html">Admin</a></li>
+            <li><a href="StaffLogin.html">Staff</a></li>
+            <li><a href="Student_login.html">Student</a></li>
+            <li><a href="Sup_login.html">Superintedent</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <!-- starting of carousel -->
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img class="slideshow-img" src="images/p1.jpg" style="width: 100%" />
+        <div class="text">UU</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img class="slideshow-img" src="images/p2.webp" style="width: 100%" />
+        <div class="text">GH-03</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img class="slideshow-img" src="images/p4.jpg" style="width: 100%" />
+        <div class="text">DOCSAA</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- end of carousel -->
+
+    <div class="count-cards">
+      <div class="count-card">
+        You are the visitor no. <span class="visitor-no">459</span>
+      </div>
+      <!-- <div class="count-card">Number of issues raised <span class="issue-no">56</span> </div> -->
+    </div>
+
+    <!-- About -->
+    <div class="mother-container">
+        <h2 id="about">About</h2>
+      
+      <p>
+        Utkal University (UU) is a Public university in Bhubaneswar, Khordha, Odisha, and is the oldest university in the state, and the 17th-oldest university in India.
+         It is a teaching-cum-affiliating university. 
+         The present campus at Vani Vihar located on a sprawling 399.9 acre area in the heart of Bhubaneswar.
+          At present the university has twenty-seven 
+          Post-Graduate teaching and research departments located within the campus, viz. Directorate of Distance and Continuing Education, University Law College at Vani Vihar. Besides the regular courses, twenty-six sponsored courses are offered under the direct academic control of the P.G. Council of the university. The university is located in the middle of the city. It is 5 km from the airport, 3 km from the railway station. Sainik school is to its north. 
+          Mancheswar industrial area is to its east.
+        </p>
+        <br><br>
+        <p>
+          In 2016, Utkal University adopted its theme song from "tunga sikhar chula" (1st 3 stanzas) poem of 
+          Godabarish Mishra, one of its founder members.
+          After the separation of Odisha from Bihar and the creation of the new province of Odisha in April 1936,
+          there was a strong desire among the leaders of the province for the establishment of a separate university
+          in Odisha. Until 1936, all the colleges were under the jurisdiction of either Patna University or Andhra University. Subsequently, the government of Odisha, with Shri Biswanath Dash as the premier, appointed a committee on 2 March 1938, with Pandit Nilakantha Das as its chairman to examine the possibility of establishing a separate university in Odisha. During the premiership of Maharaja Krushna Chandra Gajapati, who played a pioneering role in the establishment of the university, the recommendation of this committee was made available. Pandit Godavarish Mishra, the then minister of education in the government of Odisha introduced the Utkal University Bill which was passed by the Odisha Legislative Assembly on 30 June 1943. On receiving the Governor's assent subsequently on 2 August 1943, the Utkal University Act 1943 came into force,
+          clearing the way for the foundation of the university on 27 November 1943.
+      </p>
+
+      <!-- Contacts -->
+      <h2 id="contact">contacts</h2>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <div class="left">
+            <span class="contact-name"><i class="fa fa-user"></i>PROF. SABITA ACHARYA</span>
+            <span class="contact-designation">VICE CHANCELLOR</span>
+          </div>
+          <div class="right">
+            <p><i class="fa-solid fa-phone"></i> +91 2374982723</p>
+            <p><i class="fa-solid fa-envelope"></i> acharyasabita@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="left">
+            <span class="contact-name"><i class="fa fa-user"></i>DR. DURGA SHANKAR PATTANAIK</span>
+            <span class="contact-designation">CHAIRMAN, P.G. COUNCIL</span>
+          </div>
+          <div class="right">
+            <p><i class="fa-solid fa-phone"></i> +91 2845264447</p>
+            <p><i class="fa-solid fa-envelope"></i> durga@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="left">
+            <span class="contact-name"><i class="fa fa-user"></i>KANHU CHARAN SATAPATHY</span>
+            <span class="contact-designation">SUPERINTENDENT</span>
+          </div>
+          <div class="right">
+            <p><i class="fa-solid fa-phone"></i> +91 7874562723</p>
+            <p><i class="fa-solid fa-envelope"></i> kcs@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="left">
+            <span class="contact-name"><i class="fa fa-user"></i>BK JENA</span>
+            <span class="contact-designation">CARE TAKER</span>
+          </div>
+          <div class="right">
+            <p><i class="fa-solid fa-phone"></i> +91 7978546345</p>
+            <p><i class="fa-solid fa-envelope"></i> bkjena@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="left">
+            <span class="contact-name"><i class="fa fa-user"></i>ALOK SAHOO</span>
+            <span class="contact-designation">WARDEN</span>
+          </div>
+          <div class="right">
+            <p><i class="fa-solid fa-phone"></i> +91 9584521365</p>
+            <p><i class="fa-solid fa-envelope"></i> sahooalok@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="left">
+            <span class="contact-name"><i class="fa fa-user"></i>DUSWANT BARIK</span>
+            <span class="contact-designation">WARDBOY</span>
+          </div>
+          <div class="right">
+            <p><i class="fa-solid fa-phone"></i> +91 7412589633</p>
+            <p><i class="fa-solid fa-envelope"></i> dbarik@gmail.com</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <footer>
+      <ul class = quicklinks>
+        <li><a href="index.html">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+      <p>Samir 2022 © all rights reserved.</p>
+    </footer>
+    <!-- custom js -->
+    <script src="custom.js"></script>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HP-Login</title>
+  </head>
+  <body>
+    <div class="before-nav">
+      <img
+        id="university-logo-top"
+        src="logo.png"
+        alt=""
+      />
+      <div class="unv-name">
+        <h2>New PG chhatrabas</h2>
+        <h3>gent's hostel - 01</h3>
+        <p>
+          Ravenshaw university, <br />
+          Cuttack, pin-753003
+        </p>
+      </div>
+    </div>
+    <nav id="nav-bar">
+      <ul id="nav-menu">
+        <li><a href="index.html">home</a></li>
+        <li><a href="index.html#about">about</a></li>
+        <li><a href="index.html#contact">contact</a></li>
+        <li><a href="issueHistory.html">Issues</a></li>
+        <li><a href="index.html">logout </a></li>
+        
+      </ul>
+    </nav>
+
+    <div class="form-body">
+      <form action="ModifyStaff2" method="get" class="form-control issue-form">
+          <h3 class="form-title">modify STAFF</h3>
+          
+          <input
+            type="text"
+            required
+            name="id"
+            placeholder="ID"
+           
+          />
+          <input
+            type="text"
+            required
+            name="NAME"
+            placeholder="FULL NAME"
+          />
+
+          <select name="department" id = "Issue-department">
+            <option>--SELECT DEPARTMENT--</option>
+            <option value="admin">ADMIN</option>
+            <option value="carpenter">CARPENTER</option>
+            <option value="electrician">ELECTRICIAN</option>
+            <option value="janitor">JANITOR</option>
+            <option value="mason">MASON</option>
+            <option value="painter">PAINTER</option>
+            <option value="plumber">PLUMBER</option>
+            <option value="security">SECURITY</option>
+            <option value="wardboy">WARDBOY</option>
+          </select>
+
+         
+
+          <input
+            type="tel"
+            required
+            name="mobile"
+            placeholder="9999999999"  
+          />
+          <input
+          type="text"
+          required
+          name="password"
+          placeholder="PASSWORD"
+        />
+
+         <div class="form-btn-group">
+             <input type="submit" >
+             <input type="reset">
+         </div>
+     
+        </form>
+    </div>
+    <footer>
+      <ul class = quicklinks>
+        <li><a href="index.html">home</a></li>
+        <li><a href="index.html#about">about</a></li>
+        <li><a href="index.html#contact">contact</a></li>
+      </ul>
+      <p>Soumya 2022 © all rights reserved.</p>
+    </footer>
+  </body>
+</html>

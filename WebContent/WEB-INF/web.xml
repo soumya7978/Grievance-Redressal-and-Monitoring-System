@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+ <servlet>
+        <servlet-name>StudentLogin</servlet-name>
+        <servlet-class>StudentLogin</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>StudentLogin</servlet-name>
+        <url-pattern>/StudentLogin</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>studentaction</servlet-name>
+        <servlet-class>studentaction</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>studentaction</servlet-name>
+        <url-pattern>/studentaction</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>studentcheckaction</servlet-name>
+        <servlet-class>studentcheckaction</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>studentcheckaction</servlet-name>
+        <url-pattern>/studentcheckaction</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>issuehistory</servlet-name>
+        <servlet-class>issuehistory</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>issuehistory</servlet-name>
+        <url-pattern>/issuehistory</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>issuehistory2</servlet-name>
+        <servlet-class>issuehistory2</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>issuehistory2</servlet-name>
+        <url-pattern>/issuehistory2</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>StudentIssueRaise</servlet-name>
+        <servlet-class>StudentIssueRaise</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>StudentIssueRaise</servlet-name>
+        <url-pattern>/StudentIssueRaise</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>studentissueraise2</servlet-name>
+        <servlet-class>studentissueraise2</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>studentissueraise2</servlet-name>
+        <url-pattern>/studentissueraise2</url-pattern>
+    </servlet-mapping>
+    
+      <servlet>
+        <servlet-name>solveissue</servlet-name>
+        <servlet-class>solveissue</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>solveissue</servlet-name>
+        <url-pattern>/solveissue</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AdminLogin</servlet-name>
+        <servlet-class>AdminLogin</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>AdminLogin</servlet-name>
+        <url-pattern>/AdminLogin</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AddStudent</servlet-name>
+        <servlet-class>AddStudent</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>AddStudent</servlet-name>
+        <url-pattern>/AddStudent</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DeleteStudent</servlet-name>
+        <servlet-class>DeleteStudent</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>DeleteStudent</servlet-name>
+        <url-pattern>/DeleteStudent</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ModifyStudent</servlet-name>
+        <servlet-class>ModifyStudent</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>ModifyStudent</servlet-name>
+        <url-pattern>/ModifyStudent</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ModifyStudent2</servlet-name>
+        <servlet-class>ModifyStudent2</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>ModifyStudent2</servlet-name>
+        <url-pattern>/ModifyStudent2</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ViewStudent</servlet-name>
+        <servlet-class>ViewStudent</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>ViewStudent</servlet-name>
+        <url-pattern>/ViewStudent</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AddStaff</servlet-name>
+        <servlet-class>AddStaff</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>AddStaff</servlet-name>
+        <url-pattern>/AddStaff</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DeleteStaff</servlet-name>
+        <servlet-class>DeleteStaff</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>DeleteStaff</servlet-name>
+        <url-pattern>/DeleteStaff</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ModifyStaff</servlet-name>
+        <servlet-class>ModifyStaff</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>ModifyStaff</servlet-name>
+        <url-pattern>/ModifyStaff</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ModifyStaff2</servlet-name>
+        <servlet-class>ModifyStaff2</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>ModifyStaff2</servlet-name>
+        <url-pattern>/ModifyStaff2</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>ViewStaff</servlet-name>
+        <servlet-class>ViewStaff</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>ViewStaff</servlet-name>
+        <url-pattern>/ViewStaff</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ModifySup</servlet-name>
+        <servlet-class>ModifySup</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>ModifySup</servlet-name>
+        <url-pattern>/ModifySup</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ModifySup2</servlet-name>
+        <servlet-class>ModifySup2</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>ModifySup2</servlet-name>
+        <url-pattern>/ModifySup2</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ViewSup</servlet-name>
+        <servlet-class>ViewSup</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>ViewSup</servlet-name>
+        <url-pattern>/ViewSup</url-pattern>
+    </servlet-mapping>
+    
+      <servlet>
+        <servlet-name>ViewIssue</servlet-name>
+        <servlet-class>ViewIssue</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>ViewIssue</servlet-name>
+        <url-pattern>/ViewIssue</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>StaffLogin</servlet-name>
+        <servlet-class>StaffLogin</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>StaffLogin</servlet-name>
+        <url-pattern>/StaffLogin</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SupLogin</servlet-name>
+        <servlet-class>SupLogin</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>SupLogin</servlet-name>
+        <url-pattern>/SupLogin</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SupLogin2</servlet-name>
+        <servlet-class>SupLogin2</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>SupLogin2</servlet-name>
+        <url-pattern>/SupLogin2</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>Stats</servlet-name>
+        <servlet-class>Stats</servlet-class>
+    </servlet>
+    
+     <servlet-mapping>
+        <servlet-name>Stats</servlet-name>
+        <url-pattern>/Stats</url-pattern>
+    </servlet-mapping>
+    
+</web-app>
